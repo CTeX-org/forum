@@ -8,19 +8,21 @@ assignees: ''
 
 ## 检查
 
+<!-- 若需勾选，请把 [ ] 改为 [x] -->
+
 - [ ] 已在 issues 中进行搜索（包括已关闭的问题）
 
 ## 编译环境
 
 - 操作系统
-    - [ ] Windows 7/8/10
-    - [ ] macOS
-    - [ ] Linux
+  - [ ] Windows 7/8/10
+  - [ ] macOS
+  - [ ] Linux
 
 - TeX 发行版
-    - [ ] TeX Live <!-- 年份 -->
-    - [ ] MiKTeX <!-- 版本号 -->
-    - [ ] CTeX
+  - [ ] TeX Live <!-- 年份 -->
+  - [ ] MiKTeX <!-- 版本号 -->
+  - [ ] CTeX
 
 ## 描述问题
 
@@ -52,11 +54,12 @@ Hello, \LaTex!
 ```
 
 （用 XeLaTeX 编译后）输出
+
 ```latex
 ! Undefined control sequence.
 l.3 Hello, \LaTex
                  !
-? 
+?
 ```
 
 ## 链接
