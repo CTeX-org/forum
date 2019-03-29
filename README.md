@@ -45,6 +45,10 @@
 
 - [使用 listings 宏包，如何设置代码的字体](https://github.com/CTeX-org/forum/issues/7)
 
+#### `lwarp`
+
+- [ctex + lwarp 生成的 html 出现文字顺序颠倒](https://github.com/CTeX-org/forum/issues/18)
+
 #### `PGF`/`TikZ`
 
 - [TikZ-Feynman package didn't complied properly](https://github.com/CTeX-org/forum/issues/4)
