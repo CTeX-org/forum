@@ -15,6 +15,7 @@
 
 - [Roboto 字体在 xdvipdfmx 中调用时出现 null character 的警告信息](https://github.com/CTeX-org/forum/issues/13)
   - 此问题来源于 xdvipdfmx 的一个 bug
+- [如何在 XeTeX 中使用 CID 调用字符](https://github.com/CTeX-org/forum/issues/20)
 
 ### 参考文献
 
@@ -45,14 +46,19 @@
 
 - [使用 listings 宏包，如何设置代码的字体](https://github.com/CTeX-org/forum/issues/7)
 
-#### `lwarp`
+#### `pdfcomment`
 
-- [ctex + lwarp 生成的 html 出现文字顺序颠倒](https://github.com/CTeX-org/forum/issues/18)
+- [\pdfmarkupcomment 不支持中文](https://github.com/CTeX-org/forum/issues/14)
 
 #### `PGF`/`TikZ`
 
 - [TikZ-Feynman package didn't complied properly](https://github.com/CTeX-org/forum/issues/4)
   - 此问题来源于 PGF 的一个 bug
+
+### 格式转换
+
+- [ctex + lwarp 生成的 html 出现文字顺序颠倒](https://github.com/CTeX-org/forum/issues/18)
+- [日经问题：LaTeX 如何转为 Word？](https://github.com/CTeX-org/forum/issues/22)
 
 ### 编辑器
 
