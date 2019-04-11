@@ -11,6 +11,13 @@
 - [在 LaTeX 中如何实现「页尾注」？](https://github.com/CTeX-org/forum/issues/2)
 - [latex 中文多级标题如何改为：第一章，1.1 这种格式](https://github.com/CTeX-org/forum/issues/11)
 
+### 中文支持
+
+#### CTeX 宏集
+
+- [siunitx 宏包无法自动在两侧插入空白](https://github.com/CTeX-org/forum/issues/19)
+  - 此问题其实与 `siunitx` 宏包并无直接关联，而是由于 `xeCJK` 的原因，无法在技术上很好地解决。具体参考 [CTeX-org/ctex-kit#392](https://github.com/CTeX-org/ctex-kit/issues/392)
+
 ### 字体
 
 - [Roboto 字体在 xdvipdfmx 中调用时出现 null character 的警告信息](https://github.com/CTeX-org/forum/issues/13)
@@ -65,3 +72,7 @@
 #### TeXStudio
 
 - [TeXStudio 无法启动 build](https://github.com/CTeX-org/forum/issues/5)
+
+#### Sublime Text
+
+- [Sublime3 无法实时显示公式](https://github.com/CTeX-org/forum/issues/21)
