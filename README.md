@@ -13,16 +13,18 @@
 
 ### 中文支持
 
-#### CTeX 宏集
-
 - [siunitx 宏包无法自动在两侧插入空白](https://github.com/CTeX-org/forum/issues/19)
   - 此问题其实与 `siunitx` 宏包并无直接关联，而是由于 `xeCJK` 的原因，无法在技术上很好地解决。具体参考 [CTeX-org/ctex-kit#392](https://github.com/CTeX-org/ctex-kit/issues/392)
+- [如何在宏两侧自动插入CJKecglue](https://github.com/CTeX-org/forum/issues/23)
+- [如何优雅地修改 xeCJK 在边缘处的标点挤压规则？](https://github.com/CTeX-org/forum/issues/28)
+- [有办法使 xCJKecglue 随着字体而变化吗？](https://github.com/CTeX-org/forum/issues/31)
 
 ### 字体
 
 - [Roboto 字体在 xdvipdfmx 中调用时出现 null character 的警告信息](https://github.com/CTeX-org/forum/issues/13)
   - 此问题来源于 xdvipdfmx 的一个 bug
 - [如何在 XeTeX 中使用 CID 调用字符](https://github.com/CTeX-org/forum/issues/20)
+- [xetex 中 fandol 字体 script 的问题](https://github.com/CTeX-org/forum/issues/34)
 
 ### 参考文献
 
@@ -61,6 +63,10 @@
 
 - [TikZ-Feynman package didn't complied properly](https://github.com/CTeX-org/forum/issues/4)
   - 此问题来源于 PGF 的一个 bug
+
+### 宏编程
+
+- [参数中用换行符进行换行](https://github.com/CTeX-org/forum/issues/35)
 
 ### 格式转换
 
