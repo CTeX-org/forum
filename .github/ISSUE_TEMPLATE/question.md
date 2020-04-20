@@ -15,14 +15,18 @@ assignees: ''
 ## 编译环境
 
 - 操作系统
-  - [ ] Windows 7/8/10
+  - [ ] Windows 10
+  - [ ] Windows 8/8.1
+  - [ ] Windows 7
+  - [ ] 更早版本的 Windows
   - [ ] macOS
-  - [ ] Linux
+  - [ ] Linux（请附发行版）
 
 - TeX 发行版
   - [ ] TeX Live <!-- 年份 -->
   - [ ] MiKTeX <!-- 版本号 -->
-  - [ ] CTeX
+  - [ ] CTeX 套装 2.9.2.164
+  - [ ] 更早版本的 CTeX 套装
 
 ## 描述问题
 
@@ -68,3 +72,7 @@ l.3 Hello, \LaTex
 
 - TeX.SX:
 - GitHub:
+
+## 我还做了这些尝试
+
+<!-- 请详述 -->
