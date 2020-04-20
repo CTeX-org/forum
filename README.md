@@ -80,6 +80,8 @@
 
 - [参数中用换行符进行换行](https://github.com/CTeX-org/forum/issues/35)
 - [obeylines 实现在参数中换行，导致 tabular 环境中 \hline 出错](https://github.com/CTeX-org/forum/issues/44)
+- [`\RenewDocumentCommand` 修改计数器会导致相对引用出错](https://github.com/CTeX-org/forum/issues/110)
+  - 该问题是因为 `\NewDocumentCommand` 等一组命令默认定义出的函数是 robust 的，从而导致 `\thefigure` 没有在恰当的地方展开。
 
 ### 格式转换
 
