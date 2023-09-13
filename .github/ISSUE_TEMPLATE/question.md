@@ -16,6 +16,7 @@ assignees: ''
 ## 编译环境
 
 - 操作系统
+  - [ ] Windows 11
   - [ ] Windows 10
   - [ ] Windows 8/8.1
   - [ ] Windows 7
@@ -58,7 +59,7 @@ Hello, \LaTex!
 \end{document}
 ```
 
-（用 XeLaTeX 编译后）输出
+用 XeLaTeX 编译后，日志文件输出：
 
 ```latex
 ! Undefined control sequence.
