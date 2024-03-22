@@ -1,0 +1,97 @@
+name: 提问模板
+description: 请按模板进行提问
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 请确认已经完成以下事项
+      options:
+        - label: 我已在 issues 中进行搜索（包括已关闭的问题）
+          required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: 操作系统
+      placeholder: Windows 11 / 10 / 8 / 8.1, mac OS 13 / Linux（说明发行版和版本）
+    validations:
+      required: true
+
+  - type: input
+    id: tex-distro
+    attributes:
+      label: TeX 发行版
+      placeholder: TeX Live 2024 / MiKTeX 24.1 / CTeX 套装 3.0.216.3 / 其他（请具体说明）
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 描述问题
+      description: |
+        请在此处描述清楚您所遇到的问题：
+
+          1. 描述出现的情况
+          2. 给出复现步骤
+          3. 给出您解决问题所进行的尝试
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 最小工作示例（MWE）
+      description: |
+        请在此处填写最小工作示例，要求：
+
+            1. 完整：要使大家都可以编译通过，而不需要添加额外的代码；不可以只有片段
+            2. 最小：不包含与问题无关的内容，尤其是不要把整个导言区都贴过来
+            3. 工作：要反映出您所描述的问题
+
+        下面是一个范例，请提问时修改为自己的代码：
+      value: |
+        ```latex
+        \documentclass{ctexart}
+        \begin{document}
+        Hello, \LaTex!
+        \end{document}
+        ```
+
+        用 XeLaTeX 编译后，日志文件输出：
+
+        ```latex
+        ! Undefined control sequence.
+        l.3 Hello, \LaTex
+                        !
+        ?
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: 链接
+      description: 填写相关问题链接（如果有）
+      value: |
+        - TeX.SX:
+        - GitHub:
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 其他信息
+      description: 其他你认为有必要提供的信息
+      placeholder: |
+        我还做了这些尝试：
+
+        1. foo
+        2. bar
+  
+  - type: textarea
+    id: attachment
+    attributes:
+      label: 附件
+      description: 较长的 tex 或者 log 文件请以附件形式上传，不要在这里直接加入过长的代码
