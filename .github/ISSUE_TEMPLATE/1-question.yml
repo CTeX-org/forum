@@ -11,7 +11,7 @@ body:
           required: true
 
   - type: input
-    id: system
+    id: os
     attributes:
       label: 操作系统
       placeholder: Windows 11 / 10 / 8 / 8.1, mac OS 13 / Linux（说明发行版和版本）
@@ -40,7 +40,7 @@ body:
       required: true
 
   - type: textarea
-    id: problem
+    id: mwe
     attributes:
       label: 最小工作示例（MWE）
       description: |
